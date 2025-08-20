@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*post único*/
+.post-unico .compartilhar {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.post-unico .compartilhar span {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-right: .5rem;
+}
+.post-unico .compartilhar a {
+    color: var(--white);
+    font-size: 2rem;
+    padding: .8rem 1.2rem;
+    border-radius: .6rem;
+    text-decoration: none;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+#whatsapp{background-color: #198754;}
+#twitter{background-color: #3498db;}
+#linkedin{background-color: #1d6fa5;}
+#facebook{background-color: #1d6fa5;}
+/*post único end*/
