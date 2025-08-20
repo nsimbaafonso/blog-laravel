@@ -138,7 +138,7 @@
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}?<?= time() ?>">
-    <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="{{ asset('css/post.css') }}?<?= time() ?>">
 @endpush
 
 @push('scripts')
