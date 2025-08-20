@@ -64,8 +64,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
             <article class="animar shine">
-                <video src="{{ asset('video/Imagine Dragons - Believer [Tradução-Legendado] [Riverdale- Cheryl Blossom].mp4" controls
-                    loop poster="img/blog-3.jpg') }}" class="video-play"></video>
+                <video src="{{ asset('video/Imagine Dragons - Believer [Tradução-Legendado] [Riverdale- Cheryl Blossom].mp4') }}" controls
+                    loop poster="img/blog-3.jpg" class="video-play"></video>
                 <h2><a href="post.html">Postagem 3</a></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
