@@ -91,7 +91,7 @@
             </div>
 
             <!--formulário de busca-->
-            <form action="busca.html" class="search-form">
+            <form action="{{ route('site.busca') }}" class="search-form">
                 <input type="search" name="tbusca" id="search-box" placeholder="Busque aqui..." required>
                 <button type="submit" class="fas fa-search"></button>
             </form>
