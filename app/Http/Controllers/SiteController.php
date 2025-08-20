@@ -12,7 +12,7 @@ class SiteController extends Controller
     }
 
     //Página sobre
-    public function sobres() {
+    public function sobre() {
         return view("site.sobre");
     }
 
