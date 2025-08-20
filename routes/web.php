@@ -9,7 +9,7 @@ Route::get("/", [SiteController::class, "index"])->name("site.index");
 Route::get("/sobre", [SiteController::class, "sobre"])->name("site.sobre");
 Route::get("/categoria", [SiteController::class, "categoria"])->name("site.categoria");
 Route::get("/post", [SiteController::class, "post"])->name("site.post");
-Route::get("/busca", [SiteController::class, "busca"])->name("sitecbusca");
+Route::get("/busca", [SiteController::class, "busca"])->name("site.busca");
 Route::get("/contato", [SiteController::class, "contato"])->name("site.contato");
 
 
