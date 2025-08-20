@@ -7,7 +7,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide slide" style="background: url({{ asset('img/blog-1.jpg') }}) no-repeat;">
                     <div class="content">
-                        <h3><a href="post.html">Lorem ipsum dolor sit amet</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Lorem ipsum dolor sit amet</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -16,7 +16,7 @@
                 </div>
                 <div class="swiper-slide slide" style="background: url({{ asset('img/blog-2.jpg') }}) no-repeat;">
                     <div class="content">
-                        <h3><a href="post.html">Lorem ipsum dolor sit amet</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Lorem ipsum dolor sit amet</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -25,7 +25,7 @@
                 </div>
                 <div class="swiper-slide slide" style="background: url({{ asset('img/blog-3.jpg') }}) no-repeat;">
                     <div class="content">
-                        <h3><a href="post.html">Lorem ipsum dolor sit amet</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Lorem ipsum dolor sit amet</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -34,7 +34,7 @@
                 </div>
                 <div class="swiper-slide slide" style="background: url({{ asset('img/blog-1.jpg') }}) no-repeat;">
                     <div class="content">
-                        <h3><a href="post.html">Lorem ipsum dolor sit amet</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Lorem ipsum dolor sit amet</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -55,18 +55,18 @@
         <section>
             <article class="animar shine">
                 <img src="{{ asset('img/blog-1.jpg') }}" alt="Imagem Post 1">
-                <h2><a href="post.html">Postagem 1</a></h2>
+                <h2><a href="{{ route('site.post') }}">Postagem 1</a></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
             <article class="animar shine">
                 <img src="{{ asset('img/blog-2.jpg') }}" alt="Imagem Post 2">
-                <h2><a href="post.html">Postagem 2</a></h2>
+                <h2><a href="{{ route('site.post') }}">Postagem 2</a></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
             <article class="animar shine">
                 <video src="{{ asset('video/Imagine Dragons - Believer [Tradução-Legendado] [Riverdale- Cheryl Blossom].mp4') }}" controls
                     loop poster="img/blog-3.jpg" class="video-play"></video>
-                <h2><a href="post.html">Postagem 3</a></h2>
+                <h2><a href="{{ route('site.post') }}">Postagem 3</a></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
 
@@ -102,15 +102,15 @@
                 <ul>
                     <li>
                         <img src="{{ asset('img/blog-1.jpg') }}" alt="Post mais lido 1">
-                        <a href="#">Como criar um layout moderno</a>
+                        <a href="{{ route('site.post') }}">Como criar um layout moderno</a>
                     </li>
                     <li>
                         <img src="{{ asset('img/blog-2.jpg') }}" alt="Post mais lido 2">
-                        <a href="#">Dicas de produtividade para devs</a>
+                        <a href="{{ route('site.post') }}">Dicas de produtividade para devs</a>
                     </li>
                     <li>
                         <img src="{{ asset('img/blog-3.jpg') }}" alt="Post mais lido 3">
-                        <a href="#">Design UX para iniciantes</a>
+                        <a href="{{ route('site.post') }}">Design UX para iniciantes</a>
                     </li>
                 </ul>
             </div>

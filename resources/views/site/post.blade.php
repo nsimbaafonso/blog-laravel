@@ -61,7 +61,7 @@
                         <img src="img/blog-1.jpg" alt="Blog 1" title="Blog 1">
                     </div>
                     <div class="content">
-                        <h3><a href="post.html">Duis aute irure dolor</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Duis aute irure dolor</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -97,7 +97,7 @@
                         <img src="img/blog-1.jpg" alt="Blog 1" title="Blog 1">
                     </div>
                     <div class="content">
-                        <h3><a href="post.html">Duis aute irure dolor</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Duis aute irure dolor</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -109,7 +109,7 @@
                         <img src="img/blog-2.jpg" alt="Blog 2" title="Blog 2">
                     </div>
                     <div class="content">
-                        <h3><a href="post.html">Duis aute irure dolor</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Duis aute irure dolor</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
@@ -121,7 +121,7 @@
                         <img src="img/blog-3.jpg" alt="Blog 3" title="Blog 3">
                     </div>
                     <div class="content">
-                        <h3><a href="post.html">Duis aute irure dolor</a></h3>
+                        <h3><a href="{{ route('site.post') }}">Duis aute irure dolor</a></h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.
