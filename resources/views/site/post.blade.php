@@ -143,5 +143,6 @@
 
 @push('scripts')
     <script type="text/javascript" src="{{ asset('js/swiper-bundle.min.js') }}?<?= time() ?>"></script>
+    <script type="text/javascript" src="{{ asset('js/posts-slider.js') }}?<?= time() ?>"></script>
     <script type="text/javascript" src="{{ asset('js/share.js') }}?<?= time() ?>"></script>
 @endpush
