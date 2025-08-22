@@ -14,6 +14,8 @@
     <!--login-->
     @yield('conteudo')
     <!--login end-->
+
+    <script type="text/javascript" src="{{ asset('js/script.js') }}?<?= time() ?>"></script>
 </body>
 </html>
 
