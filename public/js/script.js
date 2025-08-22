@@ -5,7 +5,6 @@ let navbar = document.querySelector('.header .header-main .navbar');
 document.querySelector('#menu').onclick = () => {
     navbar.classList.toggle('active');
     searchform.classList.remove('active');
-    loginform.classList.remove('active');
 }
 
 /*formulário de busca*/
@@ -13,15 +12,6 @@ let searchform = document.querySelector('.search-form');
 document.querySelector('#search-btn').onclick = () => {
     searchform.classList.toggle('active');
     navbar.classList.remove('active');
-    loginform.classList.remove('active');
-}
-
-//tela de login
-let loginform = document.querySelector('.login-form');
-document.getElementById('login-btn').onclick = () => {
-    loginform.classList.toggle('active');
-    navbar.classList.remove('active');
-    searchform.classList.remove('active');
 }
 
 //ao rolar a página
@@ -32,7 +22,6 @@ window.onscroll = () =>{
         header.classList.remove('active');
         navbar.classList.remove('active');
         searchform.classList.remove('active');
-        loginform.classList.remove('active');
     }
 
     /*Adiciona a classe active no botão de ir ao topo ao rolar a página*/
