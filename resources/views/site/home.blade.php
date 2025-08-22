@@ -69,25 +69,6 @@
                 <h2><a href="{{ route('site.post') }}">Postagem 3</a></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum sem in lorem accumsan...</p>
             </article>
-
-            <!-- PUBLICIDADE -->
-            <div class="publicidade">
-                <h2>Publicidade</h2>
-                <div class="swiper publicidade-swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide shine">
-                            <img src="{{ asset('img/blog-1.jpg') }}" alt="Publicidade 1">
-                        </div>
-                        <div class="swiper-slide shine">
-                            <img src="{{ asset('img/blog-2.jpg') }}" alt="Publicidade 2">
-                        </div>
-                        <div class="swiper-slide shine">
-                            <img src="{{ asset('img/blog-3.jpg') }}" alt="Publicidade 3">
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
         </section>
 
         <!-- SIDEBAR -->
