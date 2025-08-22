@@ -1,4 +1,4 @@
-@extends('site.login-layout')
+@extends('layouts.login-layout')
 @section('title', 'Login | Blog')
 @section('conteudo')
     <section class="login">

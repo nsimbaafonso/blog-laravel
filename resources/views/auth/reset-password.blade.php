@@ -1,4 +1,4 @@
-@extends('site.login-layout')
+@extends('layouts.login-layout')
 @section('title', 'Redefinir Senha | Blog')
 @section('conteudo')
     <section class="login">
