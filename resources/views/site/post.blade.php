@@ -1,4 +1,4 @@
-@extends('site.layout')
+@extends('layouts.site-layout')
 @section('title', 'Post | Blog')
 @section('conteudo')
     <!--post-->
