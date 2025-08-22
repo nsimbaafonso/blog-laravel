@@ -87,27 +87,13 @@
 
             <div class="icons">
                 <button class="action-btn fas fa-search" id="search-btn" title="Pesquisar"></button>
-                <button class="action-btn fas fa-user" id="login-btn" title="Login"></button>
+                <a href="{{ route('login') }}" class="action-btn fas fa-user" title="Login"></a>
             </div>
 
             <!--formulário de busca-->
             <form action="{{ route('site.busca') }}" class="search-form">
                 <input type="search" name="tbusca" id="search-box" placeholder="Busque aqui..." required>
                 <button type="submit" class="fas fa-search"></button>
-            </form>
-
-            <!--formulário de login-->
-            <form action="" method="POST" class="login-form" autocomplete="on">
-                <h3>Login Form</h3>
-                <input type="email" name="email" placeholder="exemplo@gmail.com" class="box" required>
-                <input type="password" name="senha" placeholder="Sua Palavra-Pass" class="box" required>
-                <div class="remember">
-                    <input type="checkbox" name="lembrar" id="lembrar">
-                    <label for="lembrar">Lembrar de mim</label>
-                </div>
-                <input type="submit" value="Entrar" class="btn">
-                <p>Esqueceu a palavra-pass? <a href="#">clica aqui</a></p>
-                <p>Não tem uma conta? <a href="#">Cria uma conta</a></p>
             </form>
         </div>
     </header>
