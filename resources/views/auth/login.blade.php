@@ -6,7 +6,7 @@
             @csrf
             <h3>PAINEL ADMINISTRATIVO</h3>
             <input type="email" name="email" placeholder="exemplo@gmail.com" class="box" required>
-            <input type="password" name="password" placeholder="Sua Palavra-Pass" class="box" required>
+            <input type="password" name="password" placeholder="Sua senha" class="box" required>
             <div class="remember">
                 <input type="checkbox" name="remember_me" id="lembrar">
                 <label for="lembrar">Lembrar de mim</label>
