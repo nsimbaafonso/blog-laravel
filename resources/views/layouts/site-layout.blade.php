@@ -23,7 +23,7 @@
                 <a href="#" class="fab fa-linkedin" title="Linkedin"></a>
             </div>
 
-            <div class="alert">
+            <div class="alertt">
                 <p>
                     <strong>Jornalismo livre</strong> - Informamos com transparência
                 </p>
